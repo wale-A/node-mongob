@@ -24,6 +24,8 @@ MongoClient.connect(url, (err, db) => {
     db.collection('users').find({age: 23}).toArray().then((docs) => {
         console.log('----------------------------------');
         console.log(JSON.stringify(docs, undefined, 2));
+    }, (err) => {
+        console.log(`error occured: ${err}`);
     });
 
 });
