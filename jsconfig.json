@@ -1,0 +1,17 @@
+
+    {
+    "compilerOptions": {
+        "target": "ES6"
+    },
+    "exclude": [
+        "node_modules"
+    ],
+    // "typeAcquisition": {
+    //     "include": [
+    //         "bodyparser",
+    //         "express",
+    //         "mongodb",
+    //         "mongoose"
+    //     ]
+    // }
+}
